@@ -146,3 +146,17 @@ footer .container h6 {
   box-shadow: 0 14px 2px -8px rgba(0, 0, 0, 0.3);
   transition: 1s all;
 }
+
+.shakingShit{
+  animation-duration: 200ms;
+  animation-name: shakingBacon;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shakingBacon {
+  0%{transform: rotate(0deg);}
+  
+  50%{transform: rotate(10deg);}
+
+  100%{transform: rotate(-10deg);}
+}
