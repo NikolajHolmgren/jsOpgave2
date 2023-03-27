@@ -1,10 +1,11 @@
 /*1. Anvende javascript til at skifte farven i de sociale elementer til en mere passende farve (jeres vurdering) */
 
-const social = document.querySelector(".fa")
+const socialElements = document.querySelectorAll("i")
 
-social.style.color = "blue"
+socialElements.forEach(function (socialELement) {
+    socialELement.style.color = "blue"
+})
 
-console.log("social")
 /*2. Se den lidt skæve h1 i header - sørg for den ved hover "shaker"/ryster sig lidt. I bedes anvende javascript til at løse denne opgave */
 
 /*3. Brug javascript til at skifte billedet ud i .bigPicture-boksen, brug dette eller noget helt andet: https://cdn.pixabay.com/photo/2017/09/28/13/18/amusement-2795490_960_720.jpg */
