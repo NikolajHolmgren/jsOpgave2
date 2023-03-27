@@ -156,7 +156,11 @@ footer .container h6 {
 @keyframes shakingBacon {
   0%{transform: rotate(0deg);}
   
-  50%{transform: rotate(10deg);}
+  25%{transform: rotate(10deg) scale(150%);}
+
+  50%{transform: rotate(-10deg) scale(150%);}
+  
+  75%{transform: rotate(10deg) scale(100%);}
 
   100%{transform: rotate(-10deg);}
 }
